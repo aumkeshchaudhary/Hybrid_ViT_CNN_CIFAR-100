@@ -116,7 +116,8 @@ Input Image (32×32×3)
 ┌─────────────────────┐
 │  Classification     │
 │  Head (CLS Token)   │
-└─────────────────────┘
+└─────────────────────┘![Uploading Gemini_Generated_Image_nvl61nnvl61nnvl6.png…]()
+
          ↓
     100 Classes
 ```
