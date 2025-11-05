@@ -75,7 +75,9 @@ The solution employs a hybrid architecture that:
 ## Architecture
 
 ### Visual Overview
-![Uploading Gemini_Generated_Image_nvl61nnvl61nnvl6.png…]()
+
+<img width="1024" height="1024" alt="Gemini_Generated_Image_nvl61nnvl61nnvl6" src="https://github.com/user-attachments/assets/611f1c4c-eddd-4dbd-b452-759417d71582" />
+
 
 
 ### Convolutional Stem Details
