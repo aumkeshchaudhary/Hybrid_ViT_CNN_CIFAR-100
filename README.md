@@ -76,51 +76,8 @@ The solution employs a hybrid architecture that:
 
 ### Visual Overview
 
-```
-Input Image (32×32×3)
-         ↓
-┌─────────────────────┐
-│  Convolutional Stem │
-│  ─────────────────  │
-│  Conv 3×3, 64       │
-│  BatchNorm + ReLU   │
-│  Conv 3×3, 128, s=2 │
-│  BatchNorm + ReLU   │
-│  Conv 3×3, 384, s=2 │
-│  BatchNorm + ReLU   │
-└─────────────────────┘
-         ↓
-    Feature Map (8×8×384)
-         ↓
-┌─────────────────────┐
-│  Reshape to Patches │
-│  (64 patches, 384d) │
-└─────────────────────┘
-         ↓
-┌─────────────────────┐
-│  Prepend CLS Token  │
-│  + Positional Embed │
-└─────────────────────┘
-         ↓
-┌─────────────────────┐
-│ Transformer Encoder │
-│  ─────────────────  │
-│  8 × Transformer    │
-│  Blocks             │
-│  - Multi-Head Attn  │
-│  - LayerNorm        │
-│  - MLP              │
-│  - Stochastic Depth │
-└─────────────────────┘
-         ↓
-┌─────────────────────┐
-│  Classification     │
-│  Head (CLS Token)   │
-└─────────────────────┘![Uploading Gemini_Generated_Image_nvl61nnvl61nnvl6.png…]()
+![Uploading Gemini_Generated_Image_nvl61nnvl61nnvl6.png…]()
 
-         ↓
-    100 Classes
-```
 
 ### Convolutional Stem Details
 
