@@ -17,11 +17,11 @@
 
 ## Objective
 
-###This is the Hugging Face Space for the original Hybrid ViT model trained on CIFAR-100 classes:
+#### This is the Hugging Face Space for the original Hybrid ViT model trained on CIFAR-100 classes:
 
 [![Hugging Face Space](https://img.shields.io/badge/🤗%20Hugging%20Face-Space-yellow)](https://huggingface.co/spaces/Aumkeshchy2003/ViT_For_100_Class)
 
-###This other Space is for the fine-tuned model on CIFAR-10, making the total number of classes 110:
+#### This other Space is for the fine-tuned model on CIFAR-10, making the total number of classes 110:
 
 [![Hugging Face Space](https://img.shields.io/badge/🤗%20Hugging%20Face-Space-yellow)](https://huggingface.co/spaces/Aumkeshchy2003/ViT-One110)
 
